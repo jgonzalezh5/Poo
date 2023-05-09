@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.menu {
+    list-style-type: none;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu li a {
+    color: red;
+ 
+}
+
+.ingredientes {
+    list-style-position: inside;
+}
+
+.caja {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(227, 125, 191);
+    margin:20px 00px 60px 0px ;
+    padding: 20px 20px 20px 20px; ;
+    background-image: url("./../img/paisaje.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+
+    border-radius: 30px;
+
+}
+.caja p {
+    text-align: center;
+    text-align: justify;
+    line-height: 30px; ;
+}
